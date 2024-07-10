@@ -213,6 +213,7 @@ nav {
     align-items: center;
     text-align: center;
     
+    
 }
 .target-1{
     width: 1140px;
@@ -301,10 +302,11 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
 }
 .next-target-1{
     width: 1140px;
-    height: 869px;
+    height: 950px;
 }
 .next-target-card{
     display: flex;
@@ -389,6 +391,7 @@ nav {
     align-items: center;
     border-radius: 16px; 
     margin-top: 180px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
    
 }
 

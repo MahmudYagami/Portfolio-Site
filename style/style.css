@@ -368,31 +368,32 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
     border-radius: 16px; 
     margin-top: 180px;
+   
 }
 
-.support-container {
+.support-container { 
+    
     text-align: center;
-    color: #fff;
     background: url("../assets/handshake.jpg");
-    padding: 40px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
     width: 1140px;
     height: 314px;
     align-items: center;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
 }
 
 .support-container h2 {
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
+    
 }
 
 .support-container p {
@@ -403,6 +404,8 @@ nav {
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 50px;
+    opacity: 0.7;
 }
 
 .support-form {
@@ -410,15 +413,25 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 24px;
+   
 }
 
 .support-form input {
-    padding: 10px 20px;
-    font-size: 1em;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
+    background: rgb(255, 255, 255);
     border: none;
-    width: 300px;
+    width: 548px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+
 }
 
 .support-form button {

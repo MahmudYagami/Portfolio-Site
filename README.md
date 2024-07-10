@@ -99,3 +99,10 @@ Copy code
 Feel free to customize the content and styling as needed to better reflect your personal brand and objectives.
 
 This documentation should help you set up and modify your personal web page project easily. If you encounter any issues or have any questions, please feel free to open an issue on the GitHub repository.
+
+
+
+
+![Assignment-1](https://github.com/MahmudYagami/Web-dev/assets/131474126/dd76a04b-154c-46dc-9b47-5302deb7d774)
+
+

@@ -27,7 +27,7 @@ Clone the repository
 
 bash
 Copy code
-git clone https://github.com/your-username/personal-web-page.git
+git clone https://github.com/MahmudYagami/Web-dev.git
 Navigate to the project directory
 
 bash

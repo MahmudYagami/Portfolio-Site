@@ -98,7 +98,7 @@ nav {
 .mid-section-1{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    height: 1300px;
+    height: 1500px;
     width: 1140px;
     margin:50px 50px ;
 }
@@ -106,13 +106,32 @@ nav {
 .first-cont {
     display: flex;
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px;
 }
+.first-cont h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.first-cont-p{
 
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
 .flash-card-1, .flash-card-2, .flash-card-3 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     padding: 20px; 
     margin-top: 50px;
     margin-left: 50px;
@@ -431,6 +450,7 @@ nav {
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0%;
+    padding: 15px;
 
 }
 
@@ -446,4 +466,61 @@ nav {
     cursor: pointer;
     border-radius: 8px;
     background: rgb(255, 255, 255);
+}
+
+#foot{
+    margin-top: 80px;
+    width: 1920px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    
+}
+
+.foot-bi{
+    
+    justify-content: space-around;
+    
+
+}
+.foot-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.foot-cont h3{
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 20px;
+}
+.foot-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.foot-links ul{
+    list-style: none;
+    padding-top: 20px;
+    text-align: right;
+    
+}
+.foot-all-link{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    
 }
